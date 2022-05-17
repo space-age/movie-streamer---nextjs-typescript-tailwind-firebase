@@ -50,7 +50,7 @@ function login() {
         width={150}
         height={150}
       />
-      {/* "handleSubmit" will validate your inputs before invoking "onSubmit" */}
+      {/* "handleSubmit" will validate your  inputs before invoking "onSubmit" */}
       <form
         onSubmit={handleSubmit(onSubmit)}
         className="relative mt-24 space-y-8 rounded bg-black/75 py-10 px-6 md:mt-0 md:max-w-md md:px-14"

@@ -48,15 +48,9 @@ const Home = ({
   const movie = useRecoilValue(movieState) // GIVES US THE CURRENT MOVIE
   const list = useList(user?.uid)
 
-  if (loading || subscription === null) {
-    console.log('null')
-    return null
-  }
+  if (loading || subscription === null) return null
 
-  if (!subscription) {
-    console.log('sub')
-    return <Plans products={products} />
-  }
+  if (!subscription) return <Plans products={products} />
 
   return (
     <div
