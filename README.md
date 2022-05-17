@@ -21,3 +21,69 @@ pnpm create next-app -- --example with-tailwindcss with-tailwindcss-app
 ```
 
 Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+
+## API Used
+
+https://www.themoviedb.org/?language=en-US
+
+## Dependecies Used
+
+### [Hero Icons](https://heroicons.com/)
+```bash
+npm install @heroicons/react
+```
+
+### [React Icons](https://react-icons.github.io/react-icons/)
+```bash
+npm install react-icons –save
+```
+
+### [Tailwind text-shadow library](https://www.npmjs.com/package/tailwindcss-textshadow)
+```bash
+npm i –save-dev tailwindcss-textshadow 
+```
+
+### [Tailwind scrollbar library](https://www.npmjs.com/package/tailwind-scrollbar)
+```bash
+npm install –save-dev tailwind-scrollbar
+```
+
+### [Firebase](https://firebase.google.com/)
+```bash
+npm install firebase
+```
+
+### [React Hook forms](https://react-hook-form.com/)
+```bash
+npm install react-hook-form
+```
+
+### [Recoil](https://recoiljs.org/)
+```bash
+npm install recoil
+```
+
+### [Material UI](https://mui.com/material-ui/getting-started/installation/)
+```bash
+npm install @mui/material @emotion/react @emotion/styled
+```
+
+### [React Player](https://www.npmjs.com/package/react-player)
+```bash
+npm install react-player
+```
+
+### [Stripe](https://www.npmjs.com/package/@stripe/firestore-stripe-payments)
+```bash
+npm i @stripe/firestore-stripe-payments
+```
+
+### [Next-transpile-modules](https://www.npmjs.com/package/next-transpile-modules)
+```bash
+npm install –save next-transpile-modules
+```
+
+### [React Hot Toast](https://www.npmjs.com/package/react-hot-toast)
+```bash
+npm installed react-hot-toast
+```
